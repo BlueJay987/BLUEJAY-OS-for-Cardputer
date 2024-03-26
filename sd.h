@@ -1,3 +1,5 @@
+#ifndef SD_H
+#define SD_H
 
 bool sdcardMounted = false;
 #if defined(SDCARD)
@@ -80,4 +82,4 @@ bool setupSdCard() {
   return false;
 #endif
 }
-
+#endif SD_H

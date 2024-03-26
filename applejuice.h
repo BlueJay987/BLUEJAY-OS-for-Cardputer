@@ -241,7 +241,7 @@ DeviceType android_models[] = {
     {0x92ADC9, "Ton Upgrade Netflix"},
 };
 
-
+/*
 const char* generateRandomName() {
   const char* charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   int len = rand() % 10 + 1; // Generate a random length between 1 and 10
@@ -252,7 +252,7 @@ const char* generateRandomName() {
   randomName[len] = '\0'; // Null-terminate the string
   return randomName;
 }
-
+*/
 int android_models_count = (sizeof(android_models) / sizeof(android_models[0]));
 
 BLEAdvertisementData oAdvertisementData = BLEAdvertisementData();
