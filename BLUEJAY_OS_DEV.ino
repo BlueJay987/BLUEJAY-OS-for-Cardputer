@@ -17,7 +17,7 @@ uint16_t BGCOLOR=0x0001; // placeholder
 uint16_t FGCOLOR=0x0006; // placeholder
 
 #ifndef BRUCE_VERSION
-  #define BRUCE_VERSION "DEV 1.3"
+  #define BRUCE_VERSION "REL 1.3"
 #endif
 
 #if !defined(CARDPUTER) && !defined(STICK_C_PLUS2) && !defined(STICK_C_PLUS) && !defined(STICK_C)
